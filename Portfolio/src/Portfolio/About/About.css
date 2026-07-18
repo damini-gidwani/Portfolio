@@ -1,0 +1,33 @@
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    min-height: 100vh;
+    padding: 120px 70px 50px;
+    margin: 20px;
+    margin-left: 100px;
+}
+.child1{
+    flex:1;
+}
+.child1 img{
+    width:75%;
+    display:block;
+    margin:auto;
+    border-radius: 500px;
+}
+.child1 h3{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-light {
+    background-color: #f9fbfd;
+    color: black;
+}
+
+.about-dark {
+    background-color: #1e1e1e;
+    color: white;
+}

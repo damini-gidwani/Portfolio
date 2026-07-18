@@ -1,0 +1,15 @@
+.scard{
+    border-radius: 20px;
+    width: 31%;
+    padding: 35px;
+}
+
+.scard-dark{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.scard-light{
+    background-color: #f9fbfd;
+    color: black;
+}

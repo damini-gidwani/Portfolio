@@ -1,0 +1,28 @@
+#card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 80px 50px 200px;
+}
+#review{
+    margin:20px;
+    height: 650px;
+    padding: 60px;
+}
+h2{
+    font-weight: bolder;
+    margin-left: 200px;
+}
+#text{
+    color: orange;
+    margin-left: 200px;
+}
+.review-light {
+    background-color: white;
+    color: black;
+}
+
+.review-dark {
+    background-color: #1e1e1e;
+    color: white;
+}

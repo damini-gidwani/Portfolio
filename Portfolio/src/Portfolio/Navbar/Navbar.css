@@ -1,0 +1,128 @@
+#nav-items{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+#nav-items > a{
+    text-decoration: none;
+    color: gray;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 1000;
+    box-sizing: border-box;
+}
+#name{
+    font-size: 30px;
+    font-weight: bold;
+}
+#btns{
+    display: flex;
+    gap: 15px;
+}
+#btns > button{
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    margin-top: 10px;
+}
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 70%;
+    margin-top:65px;
+}
+
+.stat h2 {
+    /* font-size: 30px; */
+    font-weight: bold;
+    margin: 0;
+}
+
+.stat p {
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+#div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    min-height: 100vh;
+    padding: 120px 70px 50px;
+    margin: 40px;
+    margin-left: 200px;
+}
+.child{
+    flex:1;
+}
+.child img{
+    width:75%;
+    display:block;
+    margin:auto;
+    border-radius: 500px;
+}
+.child h1{
+    font-size:68px;
+    margin:15px 0;
+}
+
+.child h3{
+    font-size:20px;
+    font-weight:400;
+    color:gray;
+    line-height:1.5;
+    width:80%;
+}
+.child button{
+    padding:16px 20px;
+    border-radius:35px;
+    border:none;
+    margin-right:20px;
+    font-size:18px;
+    cursor:pointer;
+}
+.hero-line {
+    border: none;
+    height: 1px;
+    background: #d2d0d0;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.dark{
+    background-color: rgb(25, 24, 24);
+    color: white;
+}
+.light{
+    background-color: white;
+    color: rgb(26, 25, 25);
+}
+.spanDark{
+    color: white;
+}
+.spanLight{
+    color: black;
+}
+.navDark{
+    background-color:#191818;
+    color:white;
+}
+
+.navLight{
+    background:white;
+    color:black;
+}
